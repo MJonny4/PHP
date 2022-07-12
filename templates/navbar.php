@@ -5,6 +5,6 @@
   <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Contact</a>
   <div class="w3-right">
     <a href="login.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Login</a>
-    <a href="register.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Register</a>
+    <a href="./register.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Register</a>
   </div>
 </div>

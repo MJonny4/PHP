@@ -83,6 +83,8 @@
       </div>
     </div>
 
+  
+    
   <div id="bye" class="w3-center w3-padding-12">
     <img src="http://pngimg.com/uploads/goodbye/goodbye_PNG22.png"  alt="night" class="w3-image slides w3-round">
   </div>
@@ -90,17 +92,4 @@
   <div id="footer" class="w3-center w3-padding-32">
       <span class="w3-text-grey">&copy; 2022 Ximuntion</span>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
