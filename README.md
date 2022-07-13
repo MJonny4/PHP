@@ -6,5 +6,6 @@
 	- 📝 database    = db
 	- 📝 table	 = users (username, email, password)
 	- 📝 table	 = contacts (name, email, message)
+ - Also I used w3.css and a bit of bootstap 5.
  - GOOD LUCK ;D
 	
