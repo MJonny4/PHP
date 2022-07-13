@@ -12,9 +12,16 @@
 
   <script src="https://kit.fontawesome.com/fbccc5a75e.js" crossorigin="anonymous"></script>
   <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <?php include ('./database/session.php'); ?>
 </head>
 <body> 
-  <?php include './templates/navbar.php'; ?>
+  <?php 
+    if (isset($_SESSION['success'])){
+      include ('./templates/on_navbar.php');
+    } else {
+      include ('./templates/off_navbar.php');
+    } 
+  ?>
   <?php include './templates/body.php'; ?>
 </body>
 </html>

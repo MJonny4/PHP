@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-html {
+.scrollspy-example {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   background: rgb(229, 229, 234);
   color: rgb(28, 28, 30);
+}
+
+#navbar-example2{
+  font-family: 'Roboto', sans-serif;
+  background: rgb(229, 229, 234);
 }
 
 .w3-top {
@@ -13,16 +18,21 @@ html {
   z-index: 3;
 }
 
-img {
-  margin-top: 80px;
+#home2 {
+  padding-top: 20px;
 }
 
 #about {
-  background: rgb(244, 244, 247);
+  background: rgb(255, 69, 58);
   margin-bottom: 10px;
 }
 
 #features {
-  background: rgb(209, 209, 214);
+  background: rgb(255, 204, 0);
+  margin-bottom: 10px;
+}
+
+#contact {
+  background: rgb(52, 199, 89);
   margin-bottom: 10px;
 }

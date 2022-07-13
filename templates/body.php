@@ -1,11 +1,14 @@
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -99%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+
 <div id="home" class="w3-content"> 
+  <div id="home2">
   <img src="./images/1.jpg"  alt="day"   class="w3-image slides w3-card-4 w3-round">
   <img src="./images/3.jpg"  alt="noon" class="w3-image slides w3-card-4 w3-round">
   <img src="./images/2.jpg"  alt="night" class="w3-image slides w3-card-4 w3-round">
   <script>
     w3.slideshow(".slides", 5000);
   </script>
-
+  </div>
   <div class="w3-container w3-center w3-padding-32">
     <h3 class="w3-wide">Welcome to Ximuntion</h3>
     <p class="w3-opacity">A webpage made by Ion Munteanu</p>
@@ -28,7 +31,7 @@
       </div>
     </div>
   </div>
-
+  
   <div id="features" class="w3-container w3-padding-32 w3-card-4 w3-round">
     <h1 class="w3-center">Features</h1>
     <div class="w3-row w3-center">
@@ -55,15 +58,15 @@
     </div>
   </div>
 
-    <div id="contact" class="w3-container w3-padding-32 w3-card-4 w3-round w3-white">
+    <div id="contact" class="w3-container w3-padding-32 w3-card-4 w3-round">
       <h1 class="w3-center">Contact</h1>
       <p class="w3-center"><em>I'd love to hear from you!</em></p>
       <div class="w3-row w3-padding-32">
         <div class="w3-col m6 w3-large w3-margin-bottom">
-          <p class="w3-justify" style="padding-left: 80px;">
-          <i class="fa-solid fa-location-dot fa-1x"></i></i> Chicago, US<br>
-          <i class="fa-solid fa-phone fa-1x"></i> Phone: +00 151515<br>
-          <i class="fa-solid fa-envelope fa-1x"></i> Email: mail@mail.com<br>
+          <p class="w3-justify" style="padding-left: 50px; margin-top:5px;">
+          <i class="fa-solid fa-location-dot fa-1x"></i> Igualada, ES<br>
+          <i class="fa-solid fa-phone fa-1x"></i> +34 634 20 41 98<br>
+          <i class="fa-solid fa-envelope fa-1x"></i> ion.munteanu@ximuntion.com<br>
           </p>
         </div>
         <div class="w3-col m6">
@@ -77,7 +80,7 @@
               </div>
             </div>
             <input class="w3-input w3-border" type="text" placeholder="Message" required name="message">
-            <button class="w3-btn w3-black w3-section w3-right" type="submit">SEND</button>
+            <button class="w3-btn w3-white w3-section w3-right" type="submit">SEND</button>
           </form>
         </div>
       </div>
@@ -92,4 +95,6 @@
   <div id="footer" class="w3-center w3-padding-32">
       <span class="w3-text-grey">&copy; 2022 Ximuntion</span>
 </div>
+</div>
+
 </div>
